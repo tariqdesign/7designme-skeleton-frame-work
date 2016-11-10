@@ -1,0 +1,121 @@
+a{
+    color: #6df9ff;
+}
+
+h1,h2,h3,h4 {font-weight: 700}
+.cover {
+    background: cover;
+    background-image: url(../images/xlogo1-default.png)
+}
+header {
+    
+    padding:70px 0 40px;
+    
+    
+}
+.logo {
+    padding: 5px 0 5px 0px;
+}
+.logo img {
+    max-width: 50px;
+
+}
+
+.nav {
+    
+    float: right;
+      
+    
+}
+
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    width: 100px;
+    float: left;
+}
+
+.nav ul li a {
+    text-decoration: none;
+  font-weight: 600;
+    color: dimgray;
+}
+
+
+.list {
+   list-style-type: none; 
+    font-size: 20px;
+    
+}
+/*
+.list li:before {
+    content: " – ";
+   color: lightgray;
+
+    
+    
+    
+}
+*/
+address {
+    font-style: normal !important;
+   
+   
+}
+.footer{
+    
+    font-size: 1em;
+    color: black;
+    
+}
+footer {
+    
+    padding-top: 40px;
+    padding-bottom:5%;
+  
+}
+.text-intro {
+    font-size: 2em;
+    letter-spacing: -2px;
+
+    letter-spacing: 0px;
+    line-height: 1;
+   
+    display: block;
+    font-weight: 900;
+    margin: 0 0 40px 0;
+    
+}
+
+
+
+a.contact_links {
+
+	
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+	 line-height: 32px;
+
+}
+
+.sub_header{
+    
+    margin: 50px 0 70px 0
+}
+/*typography*/
+
+.sec_title{
+    font-size: 1.600em;
+    font-weight:bold;
+    padding-bottom:25px;
+    padding-top:25px;
+}
+.list a{
+   text-decoration: none
+    
+    
+}
