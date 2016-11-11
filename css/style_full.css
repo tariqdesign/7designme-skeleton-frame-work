@@ -118,7 +118,8 @@ address {
 }
 
 .intro_bg {
-    background: image("image/bg.png")
+       background-image:url("/images/bg.png");
+    background-size: cover;
 }
 
 .footer {
@@ -185,8 +186,11 @@ a.contact_links {
 }
 
 .sub_header {
-    font-size: 2vw;
-    margin: 50px 0px 50px
+      font-size: 80px;
+    line-height: normal;
+    font-weight: 700;
+    margin: 50px 0px 50px;
+    letter-spacing: -2px;
 }
 
 
