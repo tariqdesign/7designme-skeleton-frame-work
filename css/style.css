@@ -1,55 +1,139 @@
-a{
+/* Mobile first queries */
+
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+  nav {
+    display:block;}
+}
+
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+    .list {
+        font-size: 800px;
+    }
+}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {}
+
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {}
+
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {}
+
+.list ul {
+    margin-left: -1.1em;
+}
+
+a {
     color: #6df9ff;
 }
 
-h1,h2,h3,h4 {font-weight: 700}
+ul li {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/*test*/
+
+.full_index {
+ min-height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+</style> <!--[if lte IE 6]> <style type="text/css"> #container {
+    height: 100%;
+}
+
+</style> <![endif]-->
+/*end test*/
+
 .cover {
     background: cover;
     background-image: url(../images/xlogo1-default.png)
 }
+
 header {
-    
-    padding:70px 0 40px;
-    
-    
+    padding: 70px 0 40px;
 }
+
+
+.nav-up {
+    top: -125px;
+}
+
+
+.gray{
+    background-color: #f8f8f8;
+}
+
+.website_subtitle {
+    white-space: nowrap;
+    font-size: 18px!important;
+}
+
+.website_subtitle {
+    white-space: nowrap;
+    font-size: 0.9em;
+}
+
 .logo {
-    padding: 5px 0 5px 0px;
+    float: left;
+    padding-right: 30px;
 }
+
 .logo img {
     max-width: 50px;
-
 }
 
-.nav {
-    
-    float: right;
-      
-    
-}
-
+.nav { display: none;}
 
 .nav ul {
     list-style-type: none;
 }
 
 .nav ul li {
-    width: 100px;
     float: left;
+    width: 220px;
 }
 
 .nav ul li a {
     text-decoration: none;
-  font-weight: 600;
+    font-weight: 400;
     color: dimgray;
+    font-size: 1.4em;
+    margin-right: 80px;
 }
-
 
 .list {
-   list-style-type: none; 
+    list-style-type: none;
     font-size: 20px;
-    
 }
+
+
 /*
 .list li:before {
     content: " – ";
@@ -60,62 +144,163 @@ header {
     
 }
 */
+
+header{
+
+    
+}
+
+.fullscreen-cover {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+    height: 100vh;
+    
+}
+
+.wrapper{min-height:100%; position:relative; height: 100vh;}
+
+html>body .fullscreen-cover {
+  height:auto;
+}
+
+.container_full {
+    max-width: 1140px;
+    width: 100%;
+    clear: both;
+    margin: 0 auto;
+}
+
+.header_contact {
+    color: dimgray;
+    display: block;
+}
+
 address {
     font-style: normal !important;
-   
-   
 }
-.footer{
-    
+
+.intro_bg {
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+
+    width:544px;
+    height:777px;
+}
+
+.footer {
     font-size: 1em;
     color: black;
-    
 }
+
 footer {
-    
-    padding-top: 40px;
-    padding-bottom:5%;
-  
+    padding-top: 70px;
+    padding-bottom: 5%;
 }
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    line-height: 0.8em;
+}
+
+footer ul li a {
+    font-size: 1em;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+
 .text-intro {
-    font-size: 2em;
+    font-size: 6em;
     letter-spacing: -2px;
-
-    letter-spacing: 0px;
-    line-height: 1;
-   
-    display: block;
+    line-height: 1.1;
     font-weight: 900;
-    margin: 0 0 40px 0;
-    
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    display: block;
 }
 
+.intro_sub {
+    width: 48%;
+}
 
+.mp {
+    min-height: 100%;
+    padding: 2%;
+}
+
+.overlay {
+    min-height: 100%;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
 
 a.contact_links {
-
-	
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-	 line-height: 32px;
+    line-height: 32px;
+}
+
+@media (min-width: 750px) {
 
 }
 
-.sub_header{
+.sub_header {
+  
+    margin: 170px 0px 0px;
+   
+}
+.sub_header h1{
+        font-size: 48px;
+    line-height: normal;
+    font-weight: 700;
+    letter-spacing: -2px;
     
-    margin: 50px 0 70px 0
 }
+
 /*typography*/
 
-.sec_title{
+.sec_title {
     font-size: 1.600em;
-    font-weight:bold;
-    padding-bottom:25px;
-    padding-top:25px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
-.list a{
-   text-decoration: none
-    
-    
+
+.list a {
+    text-decoration: none;
+}
+
+li:before {
+    /* content: "–"; */
+    /* en dash here */
+    position: absolute;
+    margin-left: -1.1em;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.call_a {
+    font-size: 1.5em;
+    line-height: 1em;
+
+    margin: 5px;
+}
+
+.about h4 {
+    font-weight: 700;
 }
